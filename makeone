@@ -1,0 +1,3 @@
+
+
+gcc encrypt.c  -I ../../libgpg-error-1.27/src -I../src -L ../src/.libs/ -L ../../libgpg-error-1.27/src/.libs -l gcrypt -l gpg-error -o encrypt

@@ -1,0 +1,9 @@
+org: len=13
+'Hello 1 world'
+
+base64 encode pre outlen=23
+base64 encode outlen=20
+'SGVsbG8gMSB3b3JsZA=='
+base64 decode pre dlen=20
+base64 decode dlen=13
+'Hello 1 world'
